@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Syrnia Domain</title>
+		<link href="../CSS/main.css" type="text/css" rel="stylesheet" />
+		<link rel="icon" type="image/png" sizes="16x16" href="../Images/favicon/domain16fav.ico">
+	</head>
+	<body id="main_body">
+    	<!--<audio id="bgmusic" src="../Music/main.mp3" autoplay="autoplay" loop="loop"></audio>-->
+		<div id="header">
+			<li>
+				<button name="highscore" type="button" onclick="location.href='http://www.syrnia.com/index.php?page=highscore'">High Scores</button>
+				<button name="calculator" type="button" onclick="location.href='http://www.tlgrounds.com/calculators.php'">Calculators</button>
+				<button name="skill guide" type="button" onclick="location.href='#'">Skill Guides</button>
+				<button name="updates" type="button" onclick="location.href='http://www.syrnia.com/theGame/mainincludes/forum.php?pop=yes&action=viewcat&cat=36557'">Updates?</button>
+				<button name="monsters" type="button" onclick="location.href='creatures.html'">Monsters</button>
+				<button name="tools" type="button" onclick="location.href='http://www.tlgrounds.com/tools.php'">Tools</button>
+			</li>
+		</div>
+            <div id="secondheader">
+            	<a href="main.html"> <img alt="Syrnia Domain Logo" src="../Images/BackgroundImages/header.png"></a>
+            </div>
+        <div id="content">
+        	<div id="topcontent">
+            </div>
+            <div id="middlecontent">
+        	<p>Welcome to <strong><em>Syrnia Domain</em></strong>!</p>
+            <br /><img src="../Images/Pictures/prokoban.png" alt="Koban Protector" style="float:right;margin-right:-2%;">
+            <p>Soon to be the #1 fansite for all of your Syrnian needs.</p>
+            <br />
+            <p>Tools, Guides, Highscores and much more content to come!</p>
+            <br />
+            </div>
+            <div id="bottomcontent">
+            </div>
+        </div>
+	</body>
+    
+    <script>
+		if (new Date().getHours() > 18)
+        {
+        	document.body.style.backgroundImage = "url('../Images/BackgroundImages/homenight.png')";
+        	document.body.style.backgroundRepeat = "no-repeat";
+            document.body.style.backgroundPosition = "center";
+            document.body.style.backgroundSize = "cover";
+            document.body.style.backgroundAttachment = "fixed";
+        }
+    </script>
+    
+    <!--
+		<script>
+			var mybgm = document.getElementById("bgmusic").volume = .1;
+		</script>
+        -->
+</html>

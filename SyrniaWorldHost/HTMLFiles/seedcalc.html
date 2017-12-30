@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Syrnia Domain</title>
+		<link href="../CSS/main.css" type="text/css" rel="stylesheet" />
+		<link rel="icon" type="image/png" sizes="16x16" href="../Images/favicon/domain16fav.ico">
+	</head>
+	
+	<body id="main_body">
+    	<!--<audio id="bgmusic" src="../Music/main.mp3" autoplay="autoplay" loop="loop"></audio>-->
+		<div id="header">
+			<li>
+				<button name="highscore" type="button" onclick="location.href='http://www.syrnia.com/index.php?page=highscore'">High Scores</button>
+				<button name="calculator" type="button" onclick="location.href='http://www.tlgrounds.com/calculators.php'">Calculators</button>
+				<button name="skill guide" type="button" onclick="location.href='#'">Skill Guides</button>
+				<button name="updates" type="button" onclick="location.href='http://www.syrnia.com/theGame/mainincludes/forum.php?pop=yes&action=viewcat&cat=36557'">Updates?</button>
+				<button name="monsters" type="button" onclick="location.href='creatures.html'">Monsters</button>
+				<button name="tools" type="button" onclick="location.href='http://www.tlgrounds.com/tools.php'">Tools</button>
+			</li>
+		</div>
+            <div id="secondheader">
+            	<a href="main.html"> <img alt="Syrnia Domain Logo" src="../Images/BackgroundImages/header.png"></a>
+            </div>
+        <div id="content">
+        	<div id="topcontent">
+            </div>
+            <div id="middlecontent">
+<form> <td>Welcome to the farming Calculator!</td>
+</form>
+<form>	.
+</form>
+
+
+
+
+
+
+<body>
+
+
+<div id="whole">
+<form onsubmit="return radFunction()">
+<input type="number" value="" class="place" placeholder="Number of Radish/ Beet Seeds Planted" id="r1" required="">
+</form>
+
+
+<script>
+function radFunction() {
+var x = document.getElementById("r1").value;
+if ( isNaN(x)=== true){
+document.getElementById("raddy").innerHTML = "Please Check to make sure you've only used numbers in your seed values!";
+return false; 
+}
+else {
+var y = x * 1;
+document.getElementById("raddy").innerHTML = "Planting " + x + " radishes or beet seeds will give you " + y + " xp.";
+return false;
+}
+}
+</script>
+<form onsubmit="return carFunction()">
+<input type="number" value="" class="place" placeholder="Number of Carrot Seeds Planted" id="c2" required="">
+</form>
+
+
+
+
+<script>
+function carFunction() {
+var x = document.getElementById("c2").value;
+if ( isNaN(x)=== true){
+document.getElementById("raddy").innerHTML = "Dammit Noob! numbers only!.";
+return false; 
+}
+else {
+var y = x * 2;
+document.getElementById("raddy").innerHTML = "Planting " + x + " carrot seeds will give you " + y + " xp.";
+return false;
+}
+}
+</script>
+<form onsubmit="return cabFunction()">
+<input type="number" value="" placeholder="Number of Cabbage Seeds Planted" id="c1" required="">
+</form>
+
+
+<script>
+function cabFunction() {
+var x = document.getElementById("c1").value;
+if ( isNaN(x)=== true){
+document.getElementById("raddy").innerHTML = "Numbers only please?";
+return false; 
+}
+else {
+var y = x * 3;
+document.getElementById("raddy").innerHTML = "Planting " + x + " cabbage seeds will give you " + y + " xp.";
+return false;
+}
+}
+</script>
+<form onsubmit="return oniFunction()">
+<input type="number" value="" placeholder="Number of Onion Seeds Planted" id="o1" required="">
+</form>
+
+
+<script>
+function oniFunction() {
+var x = document.getElementById("o1").value;
+if ( isNaN(x)=== true){
+document.getElementById("raddy").innerHTML = "Numbers only please?!";
+return false; 
+}
+else {
+var y = x * 5;
+document.getElementById("raddy").innerHTML = "Planting " + x + " onion seeds will give you " + y + " xp. ";
+return false;
+}
+}
+</script>
+<form onsubmit="return graFunction()">
+<input type="number" value="" placeholder="Number of Grain Seeds Planted" id="g1" required="">
+</form>
+
+
+<script>
+function graFunction() {
+var x = document.getElementById("g1").value;
+if ( isNaN(x)=== true){
+document.getElementById("raddy").innerHTML = "Dont be a dick.. just type the numbers";
+return false; 
+}
+else {
+var y = x * 7;
+document.getElementById("raddy").innerHTML = "Planting " + x + " grain seeds will give you " + y + " xp. ";
+return false;
+}
+}
+</script>
+<form onsubmit="return tomFunction()">
+<input type="number" value="" placeholder="Number of Tomato Seeds Planted" id="t1" required="">
+</form>
+
+
+<script>
+function tomFunction() {
+var x = document.getElementById("t1").value;
+if ( isNaN(x)=== true){
+document.getElementById("raddy").innerHTML = "numbers only please";
+return false; 
+}
+else {
+var y = x * 9;
+document.getElementById("raddy").innerHTML = "Planting " + x + " tomato seeds will give you " + y + " xp.";
+return false;
+}
+}
+</script>
+<form onsubmit="return corFunction()">
+<input type="number" value="" placeholder="Number of Corn Seeds Planted" id="c3" required="">
+</form>
+
+
+<script>
+function corFunction() {
+var x = document.getElementById("c3").value;
+if ( isNaN(x)=== true){
+document.getElementById("raddy").innerHTML = "Numbers please?";
+return false; 
+}
+else {
+var y = x * 13;
+document.getElementById("raddy").innerHTML = "Planting " + x + " corn seeds will give you " + y + " xp.";
+return false;
+}
+}
+</script>
+<form onsubmit="return strFunction()">
+<input type="number" value="" placeholder="Number of Strawberry Seeds Planted" id="s1" required="">
+</form>
+
+
+<script>
+function strFunction() {
+var x = document.getElementById("s1").value;
+if ( isNaN(x)=== true){
+document.getElementById("raddy").innerHTML = "Numbers pl0x";
+return false; 
+}
+else {
+var y = x * 17;
+document.getElementById("raddy").innerHTML = "Planting " + x + " strawberry seeds will give you " + y + " xp.";
+return false;
+}
+}
+</script>
+<form onsubmit="return gpFunction()">
+<input type="number" value="" placeholder="Number of Green Pepper Seeds Planted" id="g2" required="">
+</form>
+
+
+<script>
+function gpFunction() {
+var x = document.getElementById("g2").value;
+if ( isNaN(x)=== true){
+document.getElementById("raddy").innerHTML = "NUMBERS PLEASE!";
+return false; 
+}
+else {
+var y = x * 19;
+document.getElementById("raddy").innerHTML = "Planting " + x + " green pepper seeds will give you " + y + " xp. ";
+return false;
+}
+}
+</script>
+
+<form onsubmit="return spFunction()">
+<input type="number" value="" placeholder="Number of Spinach Seeds Planted" id="s2" required="">
+</form>
+
+
+<script>
+function spFunction() {
+var x = document.getElementById("s2").value;
+if ( isNaN(x)=== true){
+document.getElementById("raddy").innerHTML = "NAWMBURS!";
+return false; 
+}
+else {
+var y = x * 23;
+document.getElementById("raddy").innerHTML = "Planting " + x + " spinach seeds will give you " + y + " xp. ";
+return false;
+}
+}
+</script>
+<form onsubmit="return egFunction()">
+<input type="number" value="" placeholder="Number of Eggplant Seeds Planted" id="e1" required="">
+</form>
+
+
+<script>
+function egFunction() {
+var x = document.getElementById("e1").value;
+if ( isNaN(x)=== true){
+document.getElementById("raddy").innerHTML = "NUMBERS!! ONLY!!";
+return false; 
+}
+else {
+var y = x * 27;
+document.getElementById("raddy").innerHTML = "Planting " + x + " eggplant seeds will give you " + y + " xp. ";
+return false;
+}
+}
+</script>
+<form onsubmit="return cuFunction()">
+<input type="number" value="" placeholder="Number of Cucumber Seeds Planted" id="c4" required="">
+</form>
+
+
+<script>
+function cuFunction() {
+var x = document.getElementById("c4").value;
+if ( isNaN(x)=== true){
+document.getElementById("raddy").innerHTML = "Please use numbers only";
+return false; 
+}
+else {
+var y = x * 31;
+document.getElementById("raddy").innerHTML = "Planting " + x + " cucumber seeds will give you " + y + " xp. ";
+return false;
+}
+}
+</script>
+
+<form onsubmit="return pumFunction()">
+<input type="number" value="" placeholder="Number of Pumpkin Seeds Planted" id="p1" required="">
+</form>
+
+
+<script>
+function pumFunction() {
+var x = document.getElementById("p1").value;
+if ( isNaN(x)=== true){
+document.getElementById("raddy").innerHTML = " Numbers only please!.";
+return false; 
+}
+else {
+var y = x * 35;
+document.getElementById("raddy").innerHTML = "Planting " + x + " pumpkin seeds will give you " + y + " xp. ";
+return false;
+}
+}
+</script>
+
+<form onsubmit="return appFunction()">
+<input type="number" value="" placeholder="Number of Apple Seeds Planted" id="a1" required="">
+</form>
+
+
+<script>
+function appFunction() {
+var x = document.getElementById("a1").value;
+if ( isNaN(x)=== true){
+document.getElementById("raddy").innerHTML = "Numbers!";
+return false; 
+}
+else {
+var y = x * 38;
+document.getElementById("raddy").innerHTML = "Planting " + x + " apple seeds will give you " + y + " xp. ";
+return false;
+}
+}
+</script>
+
+<form onsubmit="return perFunction()">
+<input type="number" value="" placeholder="Number of Pear Seeds Planted" id="p2" required="">
+</form>
+
+
+<script>
+function perFunction() {
+var x = document.getElementById("p2").value;
+if ( isNaN(x)=== true){
+document.getElementById("raddy").innerHTML = "Numbers pl0x!";
+return false; 
+}
+else {
+var y = x * 41;
+document.getElementById("raddy").innerHTML = "Planting " + x + " pear seeds will give you " + y + " xp. ";
+return false;
+}
+}
+</script>
+<form onsubmit="return broFunction()">
+<input type="number" value="" placeholder="Number of Broccoli Seeds Planted" id="b1" required="">
+</form>
+
+
+<script>
+function broFunction() {
+var x = document.getElementById("b1").value;
+if ( isNaN(x)=== true){
+document.getElementById("raddy").innerHTML = "Numbers??";
+return false; 
+}
+else {
+var y = x * 45;
+document.getElementById("raddy").innerHTML = "Planting " + x + " broccoli seeds will give you " + y + " xp. ";
+return false;
+}
+}
+</script>
+<form onsubmit="return peaFunction()">
+<input type="number" value="" placeholder="Number of Peach Seeds Planted" id="p3" required="">
+</form>
+
+<script>
+function peaFunction() {
+var x = document.getElementById("p3").value;
+if ( isNaN(x)=== true){
+document.getElementById("raddy").innerHTML = "Numbers! please?";
+return false; 
+}
+else {
+var y = x * 48;
+document.getElementById("raddy").innerHTML = "Planting " + x + " peach seeds will give you " + y + " xp. ";
+return false;
+}
+}
+</script>
+
+<form onsubmit="return oraFunction()">
+<input type="number" value="" placeholder="Number of Orange Seeds Planted" id="o2" required="">
+</form>
+
+<script>
+function oraFunction() {
+var x = document.getElementById("o2").value;
+if ( isNaN(x)=== true){
+document.getElementById("raddy").innerHTML = "Numbers please??";
+return false; 
+}
+else {
+var y = x * 51;
+document.getElementById("raddy").innerHTML = "Planting " + x + " orange seeds will give you " + y + " xp. ";
+return false;
+}
+}
+</script>
+<form onsubmit="return plumFunction()">
+<input type="number" value="" placeholder="Number of Plum Seeds Planted" id="p4" required="">
+</form>
+
+<script>
+function plumFunction() {
+var x = document.getElementById("p4").value;
+if ( isNaN(x)=== true){
+document.getElementById("raddy").innerHTML = "Numbers??";
+return false; 
+}
+else {
+var y = x * 54;
+document.getElementById("raddy").innerHTML = "Planting " + x + " plum seeds will give you " + y + " xp.";
+return false;
+}
+}
+</script>
+<form onsubmit="return avoFunction()">
+<input type="number" value="" placeholder="Number of Avocado Seeds Planted" id="a2" required="">
+</form>
+
+<script>
+function avoFunction() {
+var x = document.getElementById("a2").value;
+if ( isNaN(x)=== true){
+document.getElementById("raddy").innerHTML = "Numbers plawx";
+return false; 
+}
+else {
+var y = x * 57;
+document.getElementById("raddy").innerHTML = "Planting " + x + " avocado seeds will give you " + y + " xp. ";
+return false;
+}
+}
+</script>
+
+<form onsubmit="return pinFunction()">
+<input type="number" value="" placeholder="Number of Pineapple Seeds Planted" id="p5" required="">
+</form>
+
+<script>
+function pinFunction() {
+var x = document.getElementById("p5").value;
+if ( isNaN(x)=== true){
+document.getElementById("raddy").innerHTML = "Please use numbers only!";
+return false; 
+}
+else {
+var y = x * 61;
+document.getElementById("raddy").innerHTML = "Planting " + x + " pineapple seeds will give you " + y + " xp. ";
+return false;
+}
+}
+</script>
+
+<form onsubmit="return watFunction()">
+<input type="number" value="" placeholder="Number of Watermelon Seeds Planted" id="w1" required="">
+</form>
+
+<script>
+function watFunction() {
+var x = document.getElementById("w1").value;
+if ( isNaN(x)=== true){
+document.getElementById("raddy").innerHTML = "Numbers only.";
+return false; 
+}
+else {
+var y = x * 64;
+document.getElementById("raddy").innerHTML = "Planting " + x + " watermelon seeds will give you " + y + " xp.";
+return false;
+}
+}
+</script>
+<form onsubmit="return verFunction()">
+<input type="number" value="" placeholder="Number of Vervefruit Seeds Planted" id="v1" required="">
+</form>
+
+<script>
+function verFunction() {
+var x = document.getElementById("v1").value;
+if ( isNaN(x)=== true){
+document.getElementById("raddy").innerHTML = "Use numbers dumbass?";
+return false; 
+}
+else {
+var y = x * 70;
+document.getElementById("raddy").innerHTML = "Planting " + x + " vervefruit seeds will give you " + y + " xp. ";
+return false;
+}
+}
+</script>
+<form onsubmit="return fruFunction()">
+<input type="number" value="" placeholder="Number of Fruit of Life Seeds Planted" id="f1" required="">
+</form>
+
+<script>
+function fruFunction() {
+var x = document.getElementById("f1").value;
+if ( isNaN(x)=== true){
+document.getElementById("raddy").innerHTML = "please use numbers?";
+return false; 
+}
+else {
+var y = x * 100;
+document.getElementById("raddy").innerHTML = "Planting " + x + " fruit of life seeds will give you " + y + " xp. ";
+return false;
+}
+}
+</script>
+</div>
+<br><br>
+
+<b><p id="raddy"></p></b>
+
+
+
+</div></body>
+
+<script>
+function addFunction() {
+var rad = document.getElementById("r1").value;
+var car = document.getElementById("c2").value;
+var cab = document.getElementById("c1").value;
+var oni = document.getElementById("o1").value;
+var gra = document.getElementById("g1").value;
+var tom = document.getElementById("t1").value;
+var cor = document.getElementById("c3").value;
+var str = document.getElementById("s1").value;
+var gre = document.getElementById("g2").value;
+var spi = document.getElementById("s2").value;
+var egg = document.getElementById("e1").value;
+var cuc = document.getElementById("c4").value;
+var pum = document.getElementById("p1").value;
+var app = document.getElementById("a1").value;
+var pear = document.getElementById("p2").value;
+var bro = document.getElementById("b1").value;
+var peach = document.getElementById("p3").value;
+var ora = document.getElementById("o2").value;
+var plu = document.getElementById("p4").value;
+var avo = document.getElementById("a2").value;
+var pin = document.getElementById("p5").value;
+var wat = document.getElementById("w1").value;
+var ver = document.getElementById("v1").value;
+var fru = document.getElementById("f1").value;
+
+
+var total = parseInt(fru*100) + parseInt(rad*1) + parseInt(car*2)+ parseInt(cab*3)+ parseInt(oni*5)+ parseInt(gra*7)+ 
+parseInt(tom*9)+ parseInt(cor*13)+ parseInt(str*17) + parseInt(gre*19)+ parseInt(spi*23)+ parseInt(egg*27)+ parseInt(cuc*31)
++ parseInt(pum*35)+ parseInt(app*38)+ parseInt(pear*42)+ parseInt(bro*45)
++ parseInt(peach*48)+ parseInt(ora*51)+ parseInt(plu*54)+ parseInt(avo*57)+ parseInt(pin*61)+ parseInt(wat*64)+ parseInt(ver*70);
+document.getElementById("raddy").innerHTML = "Planting: " + total + " xp. Valued at 2gp/exp your total is " + total * 2 + " gp. ";
+
+return false;
+}
+</script>
+
+<div id="bottom-half"><button onclick="addFunction()">Total XP of Seeds in Form Fields &amp; GP Value</button>&nbsp;&nbsp;<button onclick="window.location.href = 'stats.html'">Syrnia Stats</button>
+
+<style>
+
+#cabby, #raddy, #carry {
+font-family: Garamond, Arial;
+font-size: 24px;
+}
+#c1, #r1, #c2, #o1, #g1, #t1, #c3, #s1, #g2, #s2, #e1, #c4, #p1, #a1, #p2, #b1, #p3, #o2, #p4, #a2, #p5, #w1, #v1, #f1 {
+width: 250px;
+}
+.cow {
+text-align: center;
+height: 10px;
+width: 250px;
+max-width: 90%;
+border: 3px solid black;
+}
+[placeholder]:focus::-webkit-input-placeholder {
+transition: opacity 0.5s 0.5s ease; 
+opacity: 0;
+}
+p {
+font-family: Courier New, Comic Sans;
+font-size: 20px;
+
+}
+#cent {
+text-align: center;
+
+}
+#left-half {
+color: black;
+float: left;
+width: 55%;
+padding-left: 0px;
+
+}
+#right-half {
+float: right;
+width: 40%;
+
+}
+#whole {
+margin-top: -20px;
+-webkit-column-count: 3; /* Chrome, Safari, Opera */
+-moz-column-count: 3; /* Firefox */
+column-count: 3;
+-moz-column-width: 300px;
+-webkit-column-width: 300px;
+column-width: 300px;
+text-align: center;
+}
+
+.hw {
+margin-left: -75px;
+}
+</style>
+<script>
+var x;
+var add;
+var total;
+</script>
+<!-- 
+rad = 1;
+bee = 1;
+car = 2;
+cab = 3;
+oni = 5;
+gra = 7;
+tom = 9;
+cor = 13;
+str = 17;
+gre = 19;
+spi = 23;
+egg = 27;
+cuc = 31;
+pum = 35;
+app = 38;
+pear = 42;
+bro = 45;
+peach = 48;
+ora = 51;
+plu = 54;
+avo = 57;
+pin = 61;
+wat = 64;
+ver = 70;
+fru = 100;
+
+-->
+<br />
+<br />
+            </div>
+            <div id="bottomcontent">
+            </div>
+        </div>
+	</body>
+    <!--
+		<script>
+			var mybgm = document.getElementById("bgmusic").volume = .1;
+		</script>
+        -->
+</html>
