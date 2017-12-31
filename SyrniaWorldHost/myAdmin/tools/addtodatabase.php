@@ -22,7 +22,7 @@
     }
 
     if (count($_POST) > 0) {
-
+pre($_POST);
         // Sanitize how you wish
         $image_url      = isset($_POST['image'])    && !empty($_POST['image'])    ? $_POST['image']      : null;
         $name           = isset($_POST['name'])     && !empty($_POST['name'])     ? $_POST['name']       : 'Sword';
@@ -36,9 +36,9 @@
         $obtain         = isset($_POST['obtain'])   && !empty($_POST['obtain'])   ? $_POST['obtain']     : 'obtain';
         $action_use     = isset($_POST['use'])      && !empty($_POST['use'])      ? $_POST['use']        : 'use';
         $is_enchantable = isset($_POST['enchantable'])  && !empty($_POST['enchantable']) ? $_POST['enchantable'] === 'enchantable' : 0;
-        $is_bound       = isset($_POST['bound'])    && !empty($_POST['bound'])    ? $_POST['bound']      : 1;
-        $is_quest       = isset($_POST['quest'])    && !empty($_POST['quest'])    ? $_POST['quest']      : 1;
-        $is_event       = isset($_POST['event'])    && !empty($_POST['event'])    ? $_POST['event']      : 1;
+        $is_bound       = isset($_POST['bound'])    && !empty($_POST['bound'])    ? $_POST['bound'] === 'bound' : 0;
+        $is_quest       = isset($_POST['quest'])    && !empty($_POST['quest'])    ? $_POST['quest'] === 'quest' : 0;
+        $is_event       = isset($_POST['event'])    && !empty($_POST['event'])    ? $_POST['event'] === 'event' : 0;
 
         // Run validation logic here.
         $valid = true;
